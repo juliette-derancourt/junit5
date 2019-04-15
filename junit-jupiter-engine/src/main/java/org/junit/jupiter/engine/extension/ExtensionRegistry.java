@@ -54,6 +54,7 @@ public class ExtensionRegistry {
 		new DisabledCondition(), //
 		new ScriptExecutionCondition(), //
 		new TempDirectory(), //
+		new TimeoutInvocationInterceptor(), //
 		new RepeatedTestExtension(), //
 		new TestInfoParameterResolver(), //
 		new TestReporterParameterResolver()));
