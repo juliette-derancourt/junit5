@@ -102,7 +102,7 @@ class ClasspathScanner {
 			Path baseDir = closeablePath.getPath();
 			return findClassesForPath(baseDir, basePackageName, classFilter);
 		}
-		catch (PreconditionViolationException ex) {
+		catch (org.junit.platform.commons.PreconditionViolationException ex) {
 			throw ex;
 		}
 		catch (Exception ex) {
